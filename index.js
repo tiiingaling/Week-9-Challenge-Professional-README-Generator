@@ -17,22 +17,22 @@ const questions = ([
     },
     {
         type: 'input',
-        name: 'installation instructions',
+        name: 'installation',
         message: 'Does this require installation?',
     },
     {
         type: 'input',
-        name: 'usage information',
+        name: 'usage',
         message: 'How do you use this project?',
     },
     {
         type: 'input',
-        name: 'contribution guidelines',
+        name: 'contributing',
         message: 'How do others contribute to this project?',
     },
         {
         type: 'input',
-        name: 'test instructions',
+        name: 'tests',
         message: 'How do you test this project?',
     },
 ])
