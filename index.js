@@ -3,39 +3,56 @@ const inquirer = require('inquirer');
 var fs = require('fs');
 
 // TODO: Create an array of questions for user input
-const questions = ([
+const questions = [
+    {
+      type: 'input',
+      name: 'title',
+      message: 'What is the title of your project?',
+    },
+    {
+      type: 'input',
+      name: 'description',
+      message: 'Please provide a brief description of your project:',
+    },
+    {
+      type: 'input',
+      name: 'installation',
+      message: 'What are the installation instructions for your project?',
+    },
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'What is the usage information for your project?',
+    },
+    {
+      type: 'input',
+      name: 'contribution',
+      message: 'What are the contribution guidelines for your project?',
+    },
+    {
+      type: 'input',
+      name: 'test',
+      message: 'What are the test instructions for your project?',
+    },
+    {
+      type: 'list',
+      name: 'license',
+      message: 'What license would you like to use for your project?',
+      choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'What is your GitHub username?',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address?',
+    },
+]
 
-    {
-        type: 'input',
-        name: 'title',
-        message: 'What is the title for your project?'
-    },
-    {
-        type: 'input',
-        name: 'description',
-        message: 'Describe your project',
-    },
-    {
-        type: 'input',
-        name: 'installation',
-        message: 'Does this require installation?',
-    },
-    {
-        type: 'input',
-        name: 'usage',
-        message: 'How do you use this project?',
-    },
-    {
-        type: 'input',
-        name: 'contributing',
-        message: 'How do others contribute to this project?',
-    },
-        {
-        type: 'input',
-        name: 'tests',
-        message: 'How do you test this project?',
-    },
-])
+inquirer.prompt(questions)
     .then((answers) => {
         const ReadmeContent = generateMarkdown(answers);
 
