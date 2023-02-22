@@ -52,15 +52,40 @@ const questions = [
     },
 ]
 
-inquirer.prompt(questions)
-    .then((answers) => {
-        const ReadmeContent = generateMarkdown(answers);
-
-        fs.writeToFile('README.md', ReadmeContent, (err) =>
-            err ? console.log(err) : console.log('Successfully created README.md!')
-        );
-    });
-
+function generateMarkdown(data) {
+    return `# ${data.title}
+    
+    ## Description
+    ${data.description}
+    
+    ## Table of Contents
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing](#contributing)
+    - [Tests](#tests)
+    - [Questions](#questions)
+    
+    ## Installation
+    ${data.installation}
+    
+    ## Usage
+    ${data.usage}
+    
+    ## License
+    This project is licensed under the ${data.license} license.
+    
+    ## Contributing
+    ${data.contribution}
+    
+    ## Tests
+    ${data.test}
+    
+    ## Questions
+    For any questions or feedback, please feel free to reach out to me through my [GitHub profile](https://github.com/${data.github}) or via email at ${data.email}.
+    `;
+    }
+      
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
@@ -71,3 +96,5 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+
