@@ -1,31 +1,34 @@
-# README generator
-  
+# test
+
+  ![License](https://img.shields.io/badge/license-MIT-brightgreen)
+
+
   ## Description
-  Using node.js and the inquirer package, this project uses prompts to fill in the data in a README file
-  
+  test
+
   ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
   ## Installation
-  use `npm i` to install the necessary packages and then run the program to initiate the prompts
-  
+  test
+
   ## Usage
-  use `npm start` to run the code and fill in the data to generate a file
-  
+  test
+
   ## License
-  This project is licensed under the MIT license.
-  
+  This application is covered under the MIT license.
+
   ## Contributing
-  Created by Ting Wong
-  
+  test
+
   ## Tests
-  run `npm test`
-  
+  test
+
   ## Questions
-  For any questions or feedback, please feel free to reach out to me through my [GitHub profile](https://github.com/tiiingaling) or via email at ting@tiiingaling.com.
+  For questions or additional information, please contact ting. You can also visit my [GitHub profile](https://github.com/ting).
   
