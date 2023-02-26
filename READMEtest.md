@@ -1,10 +1,10 @@
-# test
+# README Generator
 
   ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 
   ## Description
-  test
+  This project uses node and inquirer to generate a professional README file
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,20 +15,20 @@
   * [Questions](#questions)
 
   ## Installation
-  test
+  use `npm i` to install packages
 
   ## Usage
-  test
+  use `npm start` to start the project and fill in the prompts
 
   ## License
   This application is covered under the MIT license.
 
   ## Contributing
-  test
+  Created by Ting Wong
 
   ## Tests
-  test
+  use `npm run test`
 
   ## Questions
-  For questions or additional information, please contact ting. You can also visit my [GitHub profile](https://github.com/ting).
+  For questions or additional information, please contact ting@ting.com. You can also visit my [GitHub profile](https://github.com/tiiingaling).
   
