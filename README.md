@@ -35,4 +35,7 @@ THEN I am taken to the corresponding section of the README
 https://github.com/tiiingaling/Week-9-Challenge-Professional-README-Generator 
 
 ## Video Link
-https://drive.google.com/file/d/1lFQO7LsHQEmuwtiNCcxPGLZw9MGadUUk/view 
+https://drive.google.com/file/d/1BP67aY4q7XRBW-JbTNgvkWsakjXl0Oln/view
+
+## Link to generated README file
+https://github.com/tiiingaling/Week-9-Challenge-Professional-README-Generator/blob/main/READMEtest.md 
